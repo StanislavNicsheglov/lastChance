@@ -1,0 +1,25 @@
+.twoHeader {
+    position: sticky;
+    position: top;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 70px;
+}
+
+.twoHeaderLinks>a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1c2541;
+    margin-right: 40px;
+}
+
+.twoHeaderLinks>a:hover {
+    color: #1c2541;
+    text-decoration: underline;
+}
+
+.twoHeader>img {
+    margin-left: 25px;
+}

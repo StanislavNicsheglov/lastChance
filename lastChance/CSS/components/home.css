@@ -1,0 +1,29 @@
+.home {
+    background-image: url(../../Widgets/background/home/man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    border: 1px rgba(0, 0, 0, 0) solid;
+}
+
+.information {
+    width: 450px;
+    height: 300px;
+    margin-left: 720px;
+    margin-top: 230px;
+    line-height: 1.1;
+}
+
+.information>h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+}
+
+.information>p {
+    color: #6A7680;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 2;
+}

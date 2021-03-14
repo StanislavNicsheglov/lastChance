@@ -1,0 +1,96 @@
+.container {
+    padding: 0 350px;
+}
+
+.editButton {
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 15px 35px;
+    color: white;
+    background-color: #1c2541;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.editButton:hover {
+    background-color: #303030;
+    transition: 0.4s;
+}
+
+.editButton:focus {
+    outline: none;
+}
+
+.editLinks {
+    color: #aab2b9;
+}
+
+.editLinks:hover {
+    color: #f5f6f7;
+    transition: 0.8s;
+}
+
+.textEditOneVariant>p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textEditOneVariant>a {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.textEditOneVariant>h3 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.textEditOneVariant>h4 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.textEditOneVariant>h5 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.textEditTwoVariant>p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.textEditTwoVariant>h3 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.aEdit>a {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aEdit>p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.iEdit {
+    color: #aab2b9;
+    font-size: 15px;
+}
+
+.iEdit:hover {
+    color: #f5f6f7;
+    transition: 0.8s;
+}

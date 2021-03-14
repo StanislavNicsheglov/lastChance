@@ -1,0 +1,125 @@
+.our_teamMembers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 850px;
+    text-align: center;
+}
+
+.our_teamMembers>h3 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.our_teamMembers>p {
+    color: #6a7680;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+.photoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoitem {
+    position: relative;
+    width: 360px;
+    height: 460px;
+    margin: 0 15px;
+}
+
+.photoitem>img {
+    width: 100%;
+    height: 100%;
+}
+
+.photoContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+}
+
+.photoContent:hover {
+    background-color: rgba(0, 0, 0, 0.753);
+    opacity: 1;
+    transition: 1s;
+    animation: photoContentAnimation;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+}
+
+@keyframes photoContentAnimation {
+    0% {
+        margin-top: 100px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+.photoContent>h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.photoContent>p {
+    color: #bebebe;
+    line-height: 2;
+    margin-bottom: 20px;
+    width: 270px;
+}
+
+.photoLink>a {
+    font-size: 14px;
+    color: white;
+    margin: 0 10px;
+}
+
+.our_teamAssure {
+    background-image: url(../../Widgets/background/ourTeam/bigbuilding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.our_teamAssure>h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.our_teamAssure>p {
+    color: #ffffff;
+    line-height: 2;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.hNoWin {
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.h3BorderOur {
+    border-top: 1px #ffffff solid;
+    padding-top: 30px;
+}

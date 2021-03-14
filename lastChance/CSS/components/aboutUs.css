@@ -1,0 +1,136 @@
+.about_us {
+    border: 1px rgba(0, 0, 0, 0) solid;
+    position: relative;
+}
+
+.squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -100px;
+}
+
+.square {
+    background-color: #3a506B;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1px;
+}
+
+.squareSpecial {
+    background-color: #1c2541;
+}
+
+.squareImg>i {
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.square>a {
+    color: #FFFFFF;
+    margin: 15px 0;
+}
+
+.square>a:hover {
+    color: #bebebe;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.square>p {
+    text-align: center;
+    width: 250px;
+    color: #bebebe;
+    line-height: 2;
+}
+
+.ourValues {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.our_valuesH>h3 {
+    color: #333333;
+    width: 300px;
+    margin-right: 100px;
+}
+
+.changeOurValues {
+    font-style: italic;
+    color: #1c2541;
+}
+
+.our_valuesP>p {
+    color: #6A7680;
+    line-height: 2;
+}
+
+.our_valuesP>form {
+    margin-top: 35px;
+}
+
+.experience {
+    background-image: url(../../Widgets/background/aboutUs/building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience>h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.topLineEx {
+    border-top: 1px #ffffff solid;
+    padding-top: 30px;
+}
+
+.experience>p {
+    color: #bebebe;
+    text-align: center;
+    line-height: 2;
+}
+
+.scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scoresBox {
+    margin-top: 50px;
+    padding: 50px 100px;
+    border-right: 1px #aab2b9 solid;
+    text-align: center;
+}
+
+.deleteScoreBoxBorder {
+    border-right: none;
+}
+
+.scoresBox>h3 {
+    color: #fefefe;
+    margin-bottom: 10px;
+}
+
+.scoresBox>p {
+    color: #aab2b9;
+    line-height: 2;
+}

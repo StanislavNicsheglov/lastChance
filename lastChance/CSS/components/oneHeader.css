@@ -1,0 +1,21 @@
+.oneHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a506b;
+    height: 50px;
+}
+
+.oneHeaderLinks>i {
+    color: #aab2b9;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.oneHeaderLinks>a {
+    margin-right: 20px;
+}
+
+.oneHeaderIcons>a {
+    margin-right: 15px;
+}

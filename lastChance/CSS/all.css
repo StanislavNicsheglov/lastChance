@@ -1,0 +1,12 @@
+@import url(vendor/reset.css);
+@import url(vendor/same.css);
+@import url(vendor/fonts.css);
+@import url(components/oneHeader.css);
+@import url(components/twoHeader.css);
+@import url(components/home.css);
+@import url(components/aboutUs.css);
+@import url(components/ourTeam.css);
+@import url(components/practiceAreas.css);
+@import url(components/contacts.css);
+@import url(components/footer.css);
+@import url(vendor/cancellation.css);
